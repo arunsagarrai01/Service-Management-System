@@ -1,0 +1,84 @@
+package Admin;
+
+import java.time.LocalDate;
+
+public class Admin {
+    private int aid;
+    private String fullname;
+    private String address;  
+    private String gender;
+    private String phone;
+    private String email;
+    private String pass_word;
+   
+
+   public Admin(int aid, String fullname, String address, String gender, String phone, String email, String pass_word) {
+        this.aid = aid;
+        this.fullname = fullname;
+        this.address = address; 
+        
+        this.gender = gender;
+        this.phone = phone;
+        this.email = email;
+        this.pass_word = pass_word;
+    
+    }
+
+    public int getAid() {
+        return aid;
+    }
+
+    public void setAid(int aid) {
+        this.aid = aid;
+    }
+
+    public String getFullname() {
+        return fullname;
+    }
+
+    public void setFullname(String fullname) {
+        this.fullname = fullname;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPass_word() {
+        return pass_word;
+    }
+
+    public void setPass_word(String pass_word) {
+        this.pass_word = pass_word;
+    }
+
+}
